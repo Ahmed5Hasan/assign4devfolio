@@ -1,0 +1,20 @@
+@media (max-width: 991px) {
+    .dropdown-item::before {
+      transform: rotate(-90deg);
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .underline::before,
+    .underline.active::before {
+      visibility: visible;
+    }
+  
+    .bg-opacity-90 {
+      --bs-bg-opacity: 0.9;
+    }
+  
+    .description {
+      padding: 0 13rem;
+    }
+  }
